@@ -1,4 +1,4 @@
-module github.com/personal_message_mc-services-domain
+module github.com/Mulderink1/personal_message_mc-services-domain
 
 go 1.17
 
