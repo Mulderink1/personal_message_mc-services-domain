@@ -4,6 +4,12 @@ import (
 	"go.uber.org/zap"
 )
 
+type Message struct {
+	Date   string `json:"date"`
+	Action string `json:"action"`
+	Email  string `json:"email"`
+}
+
 type Logger struct {
 	Logger *zap.Logger
 }
